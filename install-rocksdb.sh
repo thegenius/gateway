@@ -8,3 +8,9 @@ mv v1.1.3.tar.gz zstd-1.1.3.tar.gz
 tar zxvf zstd-1.1.3.tar.gz
 cd zstd-1.1.3
 make && make install
+cd -
+
+git clone https://github.com/facebook/rocksdb.git
+cd rocksdb
+make static_lib && make install
+cd -
