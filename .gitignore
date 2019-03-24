@@ -1,2 +1,5 @@
 .idea
 /target
+/rocksdb
+/zstd-1.1.3
+zstd*
