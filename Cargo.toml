@@ -6,3 +6,17 @@ edition = "2018"
 
 [dependencies]
 rocksdb = "0.12.0"
+
+bytes = "0.4"
+listenfd = "0.3"
+actix = "0.7"
+actix-web = "0.7"
+futures = "0.1"
+reqwest = "0.9.12"
+
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+
+# mailstrom = "0.5.0"
+# email-format = { version = "0.6", features = [ "lettre" ] }
